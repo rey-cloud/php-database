@@ -1,0 +1,82 @@
+table, td, th {  
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 15px;
+  }
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.addBtn {
+  background-color: crimson;
+  width: 100%;
+  display: inline;
+  padding: 15px 10px ;
+  border-radius: 7px;
+  font-weight: bolder;
+}
+.addUser {
+  color: white;
+}
+.table {
+  margin-top: 30px;
+}
+
+form {
+  max-width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  width: calc(100% - 22px);
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-top: 5px;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+
+
